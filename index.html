@@ -4,11 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Portfolio Leandro Fugioka</title>
+
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Dev icons by Konpa -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 
 <body>
-    <h1>Leandro Fugioka</h1>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Leandro Fugioka</h2>
+            <img id="bio-img" src="img/profile-pic.png" alt="Leandro Fugioka">
+            <p>Hi, my name is Leandro Fugioka, and I'm a <span class="highlight">Fullstack Developer</span></p>
+            <p id="welcome-text">Welcome!</p>
+            <ul id="social-container">
+                <li><a href="#" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-vercel"></ion-icon></a></li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a
+                    href="mailto:leandrotfugioka@gmail.com">leandrotfugioka@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name"><span class="highlight">Leandro Fugioka</span></h1>
+            <p class="description">I'm a Fullstack Development student, I have an interest in projects since the
+                <span class="highlight">Business Rules definition and Requirement Engineering</span> up to
+                <span class="hightlight">App Deployment</span>
+            </p>
+            <p class="description">I study both <span class="highlight">Front-end</span> and
+                <span class="highlight">Back-end</span> development, and I love studying and learning everyday to ensure
+                coding best practices
+            </p>
+            <a href="#" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon> <span>See
+                    projects</span></a>
+            <h2 id="skills-section-title">My skills</h2>
+            <p class="description">Technologies I use:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-nodejs-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                    <i class="devicon-microsoftsqlserver-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Front-end Frameworks</p>
+                    <i class="devicon-angularjs-plain colored"></i>
+                    <i class="devicon-react-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Tools</p>
+                    <i class="devicon-git-plain colored"></i>
+                    <i class="devicon-docker-plain colored"></i>
+                    <i class="devicon-kubernetes-plain colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Ion icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
 
 </html>
